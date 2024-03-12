@@ -1,12 +1,15 @@
 
 import './App.css'
+import Blogs from './Components/Blogs/Blogs'
+import Header from './Components/Header/Header'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='text-5xl text-center'>Knowledge Cafe</h1>
+      <Header></Header>
+      <Blogs></Blogs>
     </>
   )
 }
