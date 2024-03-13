@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main className="flex items-center justify-between p-4">
+      <main className="md:flex items-start justify-between p-4 mx-auto max-w-7xl">
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </main>
